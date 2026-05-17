@@ -1,0 +1,10 @@
+{
+  "files": [
+    "AGENT.md",
+    "numpy-speedrun-poc/agent_runs/central-interfaces-and-behavior.md"
+  ],
+  "commands": [
+    "ls numpy-speedrun-poc/src",
+    "ls numpy-speedrun-poc/tests"
+  ]
+}
