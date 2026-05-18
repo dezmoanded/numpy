@@ -5,6 +5,10 @@
   ],
   "commands": [
     "ls numpy-speedrun-poc/src",
-    "ls numpy-speedrun-poc/tests"
+    "ls numpy-speedrun-poc/tests",
+    "echo \"Current test status: (fix if failing)\"",
+    "cd numpy-speedrun-poc; sbcl --script tests/test-mini-array.lisp",
+    "cd numpy-speedrun-poc; sbcl --script examples/boolean-mask-demo.lisp",
+    "cd numpy-speedrun-poc; ./run-all-tests.sh"
   ]
 }
