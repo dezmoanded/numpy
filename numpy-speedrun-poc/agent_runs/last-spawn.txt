@@ -1,4 +1,0 @@
-Spawn initiated
-Modules: core, tensor, broadcast, ufunc, indexing, reductions, integration
-Per-crawler budget: 0.6
-Notes: Prioritize implementing missing module files, tests, and contracts. Follow dependency DAG (core→tensor→broadcast→ufunc→reductions; core→tensor→indexing). Zero-sized dims still disallowed; boolean-select all-false remains error. Eq(bool,bool) deferred.
